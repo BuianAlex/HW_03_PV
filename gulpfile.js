@@ -68,7 +68,7 @@ gulp.task('css-castom', ['sass'], function () {
 		.pipe(gulp.dest('app/css/')); // Выгружаем в папку app/css
 });
 
-gulp.task('watch', ['html-concat','browser-sync', 
+gulp.task('watch', ['browser-sync', 
 	'css-libs', 'css-castom', 'scripts' ], function() {
 	gulp.watch('app/sass/**/*.scss', ['sass']); // Наблюдение за sass файлами в папке sass
 	gulp.watch('app/*.html', browserSync.reload); // Наблюдение за HTML файлами в корне проекта
