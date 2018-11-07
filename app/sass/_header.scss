@@ -1,0 +1,21 @@
+.header-fixed{
+  position: fixed;
+  width: 100%;
+  color: #fff;
+  background-color: $element-color;
+}
+.main-nav{
+  ul{
+    display: flex;
+  }
+  li{
+    margin: 0 0.5rem;
+  }
+  li:last-child{
+    margin-right: 0;
+  }
+
+  a:hover{
+    color: rgba(255, 255, 255, 0.7);;
+  }
+}

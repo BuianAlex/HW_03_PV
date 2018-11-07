@@ -1,0 +1,61 @@
+form{
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.fieldset-w-border{
+  border: 1px solid #999999;
+  margin-bottom: 1rem;
+  padding:  0 1rem;
+}
+legend{
+  font-size: 1rem;
+  font-weight: bold;
+}
+p{
+  margin-bottom: 1rem;
+}
+.iput-after-text{
+  margin-left: .5rem;
+}
+.short-info{
+  padding-top: 1rem;
+}
+.input-group{
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  input[type='text'],input[type='date']{
+    width: 175px;
+  }
+  p{
+    margin-bottom: 0;
+  }  
+}
+.leg-no-padding{
+  padding-top: 0;
+  .add-to-legend{
+    display: block;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+  }
+}
+.label-top{
+  display: block;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 1px;
+}
+textarea{
+  max-width: 400px;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 2px;
+
+}
+.multi-select{
+  height: 50px;
+}
+.last-text-input{
+  width: 200px;
+}
